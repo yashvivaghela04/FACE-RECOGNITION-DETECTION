@@ -1,2 +1,2 @@
 # FACE-RECOGNITION-DETECTION
-This Python project detects if a specific person is present in a group photo using OpenCV for face detection and DeepFace for generating face embeddings. It compares the embeddings to identify matches with a target image.
+This Python project detects whether a specific person is present in a group photo by utilizing face detection and embedding-based face recognition. The process involves detecting faces in the image using OpenCV's Haar Cascade, cropping the faces, generating embeddings with the DeepFace library (using the FaceNet model), and comparing these embeddings using Euclidean distance to identify a match with a target image. The project demonstrates a practical application of computer vision and AI techniques for facial recognition.
